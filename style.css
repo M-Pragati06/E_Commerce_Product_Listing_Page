@@ -1,0 +1,59 @@
+/* navbar */
+.navbar-brand img {
+    height: 45px; 
+    width: 50px;
+}
+
+div .rounded-search {
+    border-radius: 50px; /* Fully rounded corners */
+}
+
+div .input-group {
+    width: 93vw; /* Set a fixed width for the search bar */
+}
+
+@media only screen and (min-width: 800px) {
+    div .input-group {
+        width: 98vw; 
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    div .input-group {
+        width: 390px; 
+    }
+  }
+
+div .form-control:focus,div .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* spinner */
+.spinner-container {
+    display: none; /* Initially hidden */
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height */
+}
+
+/* card */
+.product-card {
+    margin-bottom: 20px;
+}
+.rating i {
+    color: #ffcc00; /* Gold color for stars */
+}
+
+.card img{
+    height:300px;
+    width: 99%;
+}
+
+.card-title {
+    height: 50px; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
